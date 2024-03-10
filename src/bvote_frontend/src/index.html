@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>bvote</title>
-    <base href="/" />
-    <link rel="icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <main>
-      <img src="logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
-    </main>
-  </body>
-</html>
+<html>
+<head>
+    <title>Voter Registration</title>
+</head>
+<body>
+    <h2>Add Voter</h2>
+    <form id="addVoterForm">
+        <input type="number" id="voterId" placeholder="ID" required>
+        <input type="text" id="voterName" placeholder="Name" required>
+        <input type="number" id="voterVote" placeholder="Vote" required>
+        <button type="submit">Add Voter</button>
+    </form>
 
+    <h2>Get Voter by ID</h2>
+    <form id="getVoterForm">
+        <input type="number" id="searchVoterId" placeholder="Voter ID" required>
+        <button type="submit">Search Voter</button>
+    </form>
+
+    <h2>All Voters</h2>
+    <button id="getAllVoters">Show All Voters</button>
+    <div id="votersList"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

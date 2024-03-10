@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#votersList {
+    margin-top: 20px;
+}

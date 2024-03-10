@@ -35,3 +35,10 @@ button[type="submit"] {
 #greeting:empty {
     display: none;
 }
+
+#searchResult {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #dddddd;
+    display: none; /* Hidden by default */
+}
