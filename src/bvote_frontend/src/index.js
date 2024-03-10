@@ -17,3 +17,4 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   return false;
 });
+
