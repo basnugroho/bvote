@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "bvote_backend": {
+      "main": "src/bvote_backend/main.mo",
+      "type": "motoko"
+    },
+    "bvote_frontend": {
+      "dependencies": [
+        "bvote_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/bvote_frontend/src/index.html"
+      },
+      "source": [
+        "src/bvote_frontend/assets",
+        "dist/bvote_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
