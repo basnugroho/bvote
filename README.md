@@ -1,10 +1,18 @@
-# bvote
+# BVOTE: Aplikasi Pemungutan Suara Berbasis Blockchain ICP
 
-Welcome to your new bvote project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+**BVOTE** merupakan aplikasi pemungutan suara yang inovatif dan terpercaya, beroperasi di atas platform Blockchain ICP dan dikembangkan menggunakan bahasa pemrograman Motoko. Aplikasi ini dirancang untuk memberikan solusi pemungutan suara yang aman, transparan, dan efisien.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+## Fitur Utama
 
-To learn more before you start working with bvote, see the following documentation available online:
+- **Pemungutan Suara Berbasis Blockchain:** Memanfaatkan teknologi blockchain untuk memastikan setiap suara tercatat dengan aman dan tidak dapat diubah atau dihapus.
+- **Anti Pemungutan Suara Ganda:** Sistem kami menjamin bahwa setiap pengguna hanya dapat memberikan suara mereka sekali, menghindari duplikasi suara.
+- **Tambah Pengguna:** Memungkinkan penambahan pengguna baru ke dalam sistem dengan mudah dan cepat.
+- **Verifikasi Pilihan Suara:** Pengguna dapat memverifikasi pilihan suara mereka untuk memastikan bahwa suara telah tercatat sesuai dengan keinginan mereka.
+- **Dapatkan Hasil:** Hasil pemungutan suara dapat diakses secara real-time, memastikan semua pihak mendapatkan informasi terkini.
+
+BVOTE adalah solusi modern untuk pemungutan suara masa kini dan masa depan, menawarkan transparansi dan keamanan tanpa kompromi.
+
+To learn more before you start working with BVOTE, see the following documentation available online:
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
