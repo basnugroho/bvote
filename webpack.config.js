@@ -50,6 +50,15 @@ module.exports = {
   //    { test: /\.css$/, use: ['style-loader','css-loader'] }
   //  ]
   // },
+  module: {
+    rules: [
+      { test: /\.(js|ts)x?$/, loader: "ts-loader" },
+      // {
+      //   test: /\.(sass|less|css)$/,
+      //   use: ['style-loader', 'css-loader', 'less-loader']
+      // }
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, frontend_entry),

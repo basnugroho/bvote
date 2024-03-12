@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "lib": ["ES2018", "DOM"],
+        "allowJs": true,
+        "jsx": "react",
+        "outDir": "./dist" // Specify a different output directory for the compiled files.
+    },
+    "include": ["src/**/*"]
+}
+   

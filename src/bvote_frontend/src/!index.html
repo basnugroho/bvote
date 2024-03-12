@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voter Registration</title>
+</head>
+<body>
+    <h2>Add Voter</h2>
+    <form id="addVoterForm">
+        <input type="number" id="voterId" placeholder="ID" required>
+        <input type="text" id="voterName" placeholder="Name" required>
+        <input type="number" id="voterVote" placeholder="Vote" required>
+        <button type="submit">Add Voter</button>
+    </form>
+
+    <h2>Get Voter by ID</h2>
+    <form id="getVoterForm">
+        <input type="number" id="searchVoterId" placeholder="Voter ID" required>
+        <button type="submit">Search Voter</button>
+    </form>
+
+    <h2>All Voters</h2>
+    <button id="getAllVoters">Show All Voters</button>
+    <div id="votersList"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

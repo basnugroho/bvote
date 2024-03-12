@@ -19,7 +19,19 @@
   "dependencies": {
     "@dfinity/agent": "^1.0.1",
     "@dfinity/candid": "^1.0.1",
-    "@dfinity/principal": "^1.0.1"
+    "@dfinity/principal": "^1.0.1",
+    "axios": "^1.6.7",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^5.3.3",
+    "css-loader": "^6.10.0",
+    "less-loader": "^12.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "web-vitals": "^3.5.2"
   },
   "devDependencies": {
     "assert": "2.0.0",
