@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import NavbarDropdown from './NavbarDropdown';
-import kpuLogo from '../assets/kpu-logo.png';
 
 function NavigationBar() {
     const [name, setName] = useState('');
@@ -37,13 +36,13 @@ function NavigationBar() {
         <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#EB7028" }} className='text-white'>
             <Container>
                 <Navbar.Brand href="#home" className="text-white">
-                    <img
+                    {/* <img
                         alt=""
-                        src={kpuLogo}
+                        src="/kpu-logo.png"
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
-                    />{' '}
+                    />{' '} */}
                     Blockchain E-Voting
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
